@@ -1,0 +1,28 @@
+.pe{
+    background-color: #000;
+}
+.footer-conato li{
+    background-color: #000;
+}
+.pe-tudo .texto-footer{
+    color: white;
+}
+.pe-tudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    gap: 100px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    align-items: center;
+}
+.texto-footer{
+    font-size: 2rem;
+}
+.pe-tudo a{
+    font-size: 2rem;
+    color: white;
+}
+.pe-tudo a:hover{
+    color: chartreuse;
+}

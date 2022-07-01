@@ -1,0 +1,88 @@
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    justify-items: center;
+    gap: 6.5rem;
+    justify-items: start;
+    margin-bottom: 40px;
+}
+.experiencia-titulo{
+    font-size: 8rem;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    word-break: break-word;
+    max-width: 4ch;
+    line-height: 1;
+}
+.text-descriçao{
+    font-size: 1.5rem;
+    max-width: 40ch;
+    line-height: 2.1rem;
+    margin-bottom: 4rem;
+}
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem 6.5rem;
+} 
+.curriculo-experiencia{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 1.2rem;
+       margin-bottom: 1.5rem;
+       position: relative;
+    }
+
+.curriculo-experiencia{
+    grid-column: 2;
+    background-color: #f3f0f0;
+    padding: 1.2rem;
+}
+h3, p{
+    grid-column: 1;
+} 
+
+ul{
+    grid-column: 2;
+}
+p{
+    font-size: 0.875rem;
+    color: #525252;
+    line-height: 1.4;
+}
+h4{
+    grid-column: 2;
+    grid-row: 1;
+}
+.flex{
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    align-content: start;
+}
+li{
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;
+}
+.ano{/* macete para alinhar um text almente o width o height 
+    assim vc vai conseguir alinhar o texto, nesse caso eu almentei o width*/
+    position: absolute;
+    left: -100px;
+    top: 20px;
+    width: 80px;
+    text-align: right;
+}
+h3::before{
+    content: "";
+    width: 4px;
+    height: 20px;
+    display: block;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    left: -1px;
+}

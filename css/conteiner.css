@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    gap: 6.5rem;
+    align-items: center;
+    justify-items: start;
+    margin: 0 auto;
+}
+h1{
+    font-size: 4.5rem;
+}
+.local{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: #152152;
+}
+.container-inicio{
+    position: relative;
+}
+h1::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../img/detalhe.svg);
+    position: absolute;
+    top: -2rem;
+    left: -2.9rem;
+    z-index: -1;
+}

@@ -1,0 +1,24 @@
+.cabeçalho{
+    display: flex;
+    justify-content: space-between; 
+    padding: 40px 20px ;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-cabeçalho{
+    display: flex;
+     gap: 2rem;
+}
+@media (max-width: 700px){
+    .cabeçalho{
+       flex-direction: column;
+       gap: 2rem;
+    }
+    .menu-cabeçalho a{
+        background-color: chartreuse;
+    }
+}
+ .menu-cabeçalho a:hover{
+    color: chartreuse;
+ }

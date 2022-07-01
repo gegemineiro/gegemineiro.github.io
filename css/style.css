@@ -1,0 +1,42 @@
+@import'./cabeçalho.css';
+@import'./conteiner.css';
+@import"./experiencia.css";
+@import "./formaçao.css";
+@import"/css/footer.css";
+
+*{
+    margin: 0px;
+    font-family: 'fira sans';
+    color: #141414;
+    
+}
+h1, h2, h3, p, h4{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #141414;
+    font-size: 1.125rem;
+    display: block;
+    padding: 6px;
+    border-radius: 4px;
+}
+.foto-perfil{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+ 
